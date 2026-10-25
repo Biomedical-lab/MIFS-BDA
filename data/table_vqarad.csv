@@ -1,0 +1,10 @@
+strategy,model,F1_macro,BalAcc,Acc
+Baseline,ImageOnly,0.5606,0.5610,0.5607
+Baseline,TextOnly,0.6279,0.6301,0.6308
+Early,EarlyFusion,0.6719,0.6724,0.6729
+Intermediate,DeepFusion,0.6542,0.6544,0.6542
+Intermediate,LMF,0.6429,0.6456,0.6449
+Late,LateFusion,0.6715,0.6736,0.6729
+Attention,CrossAttn,0.6278,0.6419,0.6402
+Attention,GAF,0.6395,0.6398,0.6402
+Adaptive,HybridFusion,0.6913,0.6919,0.6916

@@ -1,0 +1,15 @@
+Method,Fusion_Strategy,Metric_Type,Metric_Value,Dataset,Paper_Key
+ORB+InceptionV4,Early,Accuracy,93.4,Cancer images (MRI+CT),allapakam2024ensemble
+LMF Low-Rank,Intermediate,Acc-2,76.4,CMU-MOSI,liu2018efficient
+HEALNet,Intermediate,C-index (avg),0.686,TCGA (4 cancers: BLCA/BRCA/KIRP/UCEC),steyaert2023multimodal
+H-DenseFormer,Intermediate,DSC,73.9,HECKTOR,shi2023h
+MEDFuse,Intermediate,F1,90.0,MIMIC-III,soenksen2022integrated
+DF-DM,Intermediate,Macro F1,92.0,Retinal images + metadata,duan2024deep
+MMTA (Multi-level FGA),Intermediate,Acc-2,85.4,CMU-MOSI,li2025multi
+Breast DL (Chen),Late,AUC,96.8,Breast mammography + ultrasound,chen2025deep
+HAFNet,Attention,OA,97.96,ISPRS Potsdam,zhang2020hybrid
+MFTN,Attention,mAP@50,96.4,LLVIP,li2025multimodal
+AttnHybrid+SVM,Attention,Accuracy,98.5,ADNI (MRI+PET),paduvilan2025attention
+DynMM,Adaptive,Computation reduction,46.5,CMU-MOSEI,xue2023dynmm
+Hybrid_ECG,Hybrid,Accuracy,93.6,ECG Kaggle,dhandapani2025hybrid
+Pathomic Fusion,Hybrid,C-index,82.6,TCGA-GBMLGG (glioma),chen2023pathomic
